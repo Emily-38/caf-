@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+p {
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(/café/image/restaurant.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    color: white;
+    justify-content: end;
+    margin: 10px;
+}
+.barre {
+    height: 10px;
+    width: 150px;
+    margin: 10px;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 500px;
+}
+.un {
+    width: 500px;
+    height: 150px;
+}
+.deux {
+    font-weight: 600;
+    align-self: flex-start;
+    width: 100px;
+}
+
+.trois {
+    width: 500px;
+    height: 150px;
+}
