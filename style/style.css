@@ -34,7 +34,7 @@ main {
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: url(/café/image/restaurant.jpg);
+    background-image: url(../image/restaurant.jpg);
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
